@@ -250,6 +250,19 @@ vape.Libraries.entity = entitylib
 vape.Libraries.whitelist = whitelist
 vape.Libraries.prediction = prediction
 vape.Libraries.hash = hash
+vape.Libraries.string = {
+	GenerateString = function(self, Length)
+		local String = ''
+		for i = 1, Length do String = String..string.char(math.random(33, 126)) end
+		return String
+	end,
+	GenerateBytes = function(self, Length)
+		local bytecode = '0x'
+		for i = 1, Length do bytecode = bytecode..string.format('%x', math.random(0, 15)) end
+		return bytecode
+	end
+}
+vape.Libraries.calculatePosition = vape.Libraries.calculatePosition or function() return Vector3.zero end
 vape.Libraries.auraanims = {
 	Normal = {
 		{CFrame = CFrame.new(-0.17, -0.14, -0.12) * CFrame.Angles(math.rad(-53), math.rad(50), math.rad(-64)), Time = 0.1},

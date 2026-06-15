@@ -7,3 +7,4 @@ Profiles/*.*
 VapeV4.lua
 CustomModules/292439477.lua
 .claude/
+!profiles/packages.json
