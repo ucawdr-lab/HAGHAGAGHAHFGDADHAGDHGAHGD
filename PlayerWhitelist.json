@@ -1,0 +1,22 @@
+{
+	"WhitelistedUsers": [
+		{
+			"hash": "398387f1fdedc8f016bce03b72fceaf2612f52cb9fca8a7077d30f356798b1fce340baf62f44a150523ccfc61cbf88be6e28a5f972fa841b4a463dd95d0f1ef9",
+			"level": 1,
+			"attackable": false,
+			"tags": [
+				{
+					"text": "OWNER",
+					"color": [255, 0, 0]
+				}
+			]
+		}
+	],
+	"BlacklistedUsers": {},
+	"Announcement": {
+		"expiretime": 0,
+		"targets": "all",
+		"text": ""
+	},
+	"KillVape": false
+}
