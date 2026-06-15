@@ -10,6 +10,17 @@
 					"color": [255, 0, 0]
 				}
 			]
+		},
+		{
+			"hash": "bee0cff479a6f99dd893a8a0bba18af6d9a2ac29f3f488982c72114b3e503a9439d9036e60aa6e2e948935e3bddd069676aaf6c527e52aa68dcf9d4b997f05aa",
+			"level": 1,
+			"attackable": false,
+			"tags": [
+				{
+					"text": "OWNER",
+					"color": [255, 0, 0]
+				}
+			]
 		}
 	],
 	"BlacklistedUsers": {},

@@ -3575,7 +3575,7 @@ function mainapi:CreateGUI()
 				cmd = 'INVITE_BROWSER'
 			})
 
-			for i = 1, 14 do
+			for i = 1, 0 do -- [GRIEFER] discord RPC disabled (no external connections)
 				task.spawn(function()
 					request({
 						Method = 'POST',

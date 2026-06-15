@@ -454,12 +454,7 @@ run(function()
 			self.alreadychecked[v.UserId] = true
 			self:hook()
 
-			if self.localprio == 0 then
-				olduninject = vape.Uninject
-				vape.Uninject = function()
-					notif('GRIEFER', 'No escaping the private members :)', 10)
-				end
-			end
+			-- [GRIEFER] private-member uninject lock removed
 		end
 	end
 
